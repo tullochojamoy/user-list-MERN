@@ -32,4 +32,4 @@ UserSchema.post('save', function(error, doc, next){
     }
 })
 
-module.exports = mongoose.model("User", UserSchema);
+module.exports = mongoose.model("Users", UserSchema);
